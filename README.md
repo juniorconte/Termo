@@ -1,2 +1,1 @@
-# termo-2.0
-# Termo-2.1
+Re-implementação simplificada do term.ooo

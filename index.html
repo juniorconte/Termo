@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="palavras.js"></script>
+    <script src="logica.js"></script>
+</head>
+<body>
+    <div class="letra-container">
+        <input class="letra" type="text" maxlength="1" oninput="verificarLetra(0, this, event)" onkeydown="verificarCursor(0, this, event)">
+        <input class="letra" type="text" maxlength="1" oninput="verificarLetra(1, this, event)" onkeydown="verificarCursor(1, this, event)">
+        <input class="letra" type="text" maxlength="1" oninput="verificarLetra(2, this, event)" onkeydown="verificarCursor(2, this, event)">
+        <input class="letra" type="text" maxlength="1" oninput="verificarLetra(3, this, event)" onkeydown="verificarCursor(3, this, event)">
+        <input class="letra" type="text" maxlength="1" oninput="verificarLetra(4, this, event)" onkeydown="verificarCursor(4, this, event)">
+    </div>
+
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</body>
+</html>
